@@ -4,7 +4,7 @@ from firebase_admin import firestore
 from firebase_admin import credentials
 from firebase_admin import auth
 
-cred = credentials.Certificate("todo-ecdb5-157ee2bc08d8.json")
+cred = credentials.Certificate("todo-d43b7-2955f61e560f.json")
 firebase_admin.initialize_app(cred)
 
 def app():
